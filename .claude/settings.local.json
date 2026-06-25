@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s https://catfact.ninja/fact)",
+      "Bash(curl -s \"https://catfact.ninja/facts?limit=2\")",
+      "Bash(curl -s \"https://catfact.ninja/breeds?limit=2\")",
+      "Bash(curl -s \"https://catfact.ninja/fact\" -H \"Accept: application/json\" -i)",
+      "Bash(npm -v)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173/src/main.js)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/src/App.vue)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/src/api/catfact.js)",
+      "Bash(node --input-type=module -e ' *)"
+    ]
+  }
+}
